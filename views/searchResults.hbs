@@ -1,0 +1,27 @@
+<div class="result-ctr">
+  <div class="results-inr">
+    <h1>results</h1>
+
+    {{# each results}}
+      <div class="result-individual">
+          <div>{{this.userName}}</div>
+          <div class="result-firstname">
+            {{this.firstName}},
+          </div>
+
+          <div class="result-age">
+            {{this.age}}
+          </div>
+
+          <div class="result-orientation">
+            {{this.orientation}}
+          </div>
+
+          <div class="result-location">
+            {{this.location}}
+          </div>
+
+      </div>
+    {{/each}}
+  </div>
+</div>

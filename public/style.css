@@ -1,0 +1,42 @@
+h1{
+  color:red;
+}
+
+.search_ctr{
+  width: 50%;
+  border:black 1px solid;
+  margin: 0 auto;
+  padding: 100px;
+  border-radius: 5px;
+}
+
+.results-inr{
+  width: 25%;
+  margin: auto;
+}
+
+.form-group{
+  margin:10px;
+  padding:10px;
+  background:linen;
+}
+
+.result-individual{
+  height: 70vh;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.result-age{
+  float:left;
+  margin-left:5px;
+}
+
+.result-firstname{
+  float:left;
+}
+
+.result-location{
+  clear:both;
+}
